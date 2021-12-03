@@ -67,7 +67,7 @@
   height: 100xh;
   width: 400px;
   right:0;
-  top:0;
+  top:22px;
   background-color:violet;
   padding:12px 20px;
   overflow-y:scroll; 
@@ -96,4 +96,14 @@
 }
 .cart h2{
   margin-top: 40px;
+}
+.cart-icon {
+  position: relative;
+
+}
+.cart-icon .fas{
+  position: absolute;
+  top:-20px;
+  right:0;
+  padding: 5px 20px;
 }
